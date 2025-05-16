@@ -1,3 +1,11 @@
+# Thoughts
+# freq hasmap will work
+# we can use set and compare if it was before
+
+# Extra that I missed
+# Sort and compare pairs
+# Compare length set vs original array
+
 from collections import Counter
 from typing import List 
 
@@ -30,6 +38,7 @@ class Solution:
                 unique_nums.add(num)
 
         return False
+    
 # Example usage
 if __name__ == "__main__":
     solution = Solution()
