@@ -1,10 +1,10 @@
 # Thoughts
-# freq hasmap will work
-# we can use set and compare if it was before
+    # freq hasmap will work
+    # we can use set and compare if it was before
 
 # Extra that I missed
-# Sort and compare pairs
-# Compare length set vs original array
+    # Sort and compare pairs
+    # Compare length set vs original array
 
 from collections import Counter
 from typing import List 
