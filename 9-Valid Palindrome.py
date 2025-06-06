@@ -10,7 +10,6 @@
     # in while loop condition, l < r
 
 
-
 s = "Was it a car or a cat I saw?"
 
 
