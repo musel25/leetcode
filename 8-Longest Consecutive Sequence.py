@@ -6,7 +6,7 @@
     # Given we want only max value, then not need hasmap
 
 # Extra that I missed
-    # No need of both sorting and set. Only set enough, also can use hasmap
+    # No need of both sorting and set. Only set enough, also can use hasmap key begining and value length.
 
 
 
@@ -37,3 +37,17 @@ for num in nums:
             length += 1
         longest = max(length,longest)
 print(longest)
+
+
+# class Solution:
+#     def longestConsecutive(self, nums: List[int]) -> int:
+#         mp = defaultdict(int)
+#         res = 0
+
+#         for num in nums:
+#             if not mp[num]:
+#                 mp[num] = mp[num - 1] + mp[num + 1] + 1
+#                 mp[num - mp[num - 1]] = mp[num]
+#                 mp[num + mp[num + 1]] = mp[num]
+#                 res = max(res, mp[num])
+#         return res
