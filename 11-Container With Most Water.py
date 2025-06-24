@@ -12,13 +12,21 @@ You may choose any two bars to form a container. Return the maximum amount of wa
 # Code
 
 # Extra that I missed
-
-heights = [1,8,6,2,5,4,8,3,7]
+    # Exactly as i did
+heights = [2,2,2]
 
 max_water = 0
 l = -0
-r = len(heights)
+r = len(heights)-1
 
 while l<r:
-    print(l,r)
-    r-=1
+    distance  = r-l
+    cap = min(heights[l],heights[r])
+    area  = cap*distance
+    print(cap,distance,area)
+    max_water = max(max_water,area)
+    if heights[l]< heights[r]:
+        l +=1
+    else:
+        r-=1
+print(max_water)
