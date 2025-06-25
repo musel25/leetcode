@@ -19,3 +19,8 @@ The goal of this project is to practice and improve my problem-solving skills, a
 
 This repository is a **work in progress**.  
 I aim to update it regularly until all 150 problems are covered.
+
+
+To-solve
+
+10
