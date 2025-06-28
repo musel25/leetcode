@@ -9,8 +9,6 @@ You may choose any two bars to form a container. Return the maximum amount of wa
     # Update the max_water if the current area is greater.
     # Return the max_water.
 
-# Code
-
 # Extra that I missed
     # Exactly as i did
 heights = [2,2,2]
